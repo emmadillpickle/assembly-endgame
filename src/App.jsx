@@ -13,8 +13,7 @@ import "./App.css"
 export default function Hangman() {
   
   // state variables
-  // const [currentWord, setCurrentWord] = React.useState(getRandomWord())
-  const [currentWord, setCurrentWord] = React.useState("react")
+  const [currentWord, setCurrentWord] = React.useState(getRandomWord())
   const [guessedLetters, setGuessedLetters] = React.useState([])
 
   // derived variables
