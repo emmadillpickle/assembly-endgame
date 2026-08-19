@@ -1,16 +1,27 @@
-import { languages } from "../../data/languages.js"
 import "./Languages.css"
+import { clsx } from "clsx"
 
-export default function Languages() {
+export default function Languages({languages, wrongGuessCount}) {
 
-    const languageChips = languages.map(language => {
+    const languageChips = languages.map((language, index) => {
+        const isLanguageLost = index < wrongGuessCount
 
         const styles = {
             backgroundColor: language.backgroundColor,
             color: language.color
         }
 
-        return <span style={styles}>{language.name}</span>
+        const className = clsx("chip", isLanguageLost && "lost")
+
+        return (
+            <span 
+                key={language.name} 
+                style={styles}
+                className={className}
+            >
+                {language.name}
+            </span>
+        )
     })
 
     return (

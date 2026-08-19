@@ -1,0 +1,12 @@
+.new-game-button {
+    background-color: #11B5E5;
+    width: 228px;
+    height: 40px;
+    border: 1px solid #D7D7D7;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #1E1E1E;
+    margin-top: 30px;
+    cursor: pointer;
+}
