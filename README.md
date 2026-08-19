@@ -1,18 +1,36 @@
-# React + Vite
+# Assembly: Endgame
+A programming-themed twist on the classic Hangman game built with React.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+In **Assembly: Endgame**, every incorrect guess eliminates a programming language from existence. Your mission is to uncover the hidden word before all modern languages disappear, leaving humanity trapped in a future where **Assembly is the only language left**.
 
-Currently, two official plugins are available:
+## 🎮 How to Play
+- Guess the hidden word one letter at a time.
+- Correct guesses reveal letters in the word.
+- Incorrect guesses eliminate a programming language.
+- You have 8 incorrect guesses before the game is over.
+- Win by revealing every letter in the word before all languages are lost.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
+- Interactive keyboard for letter selection
+- Dynamic game state updates
+- Visual language elimination system
+- Win and loss conditions
+- Random word generation
+- Responsive UI built with React
+- Replay functionality for starting a new game
 
-## React Compiler
+## 🛠️ Built With
+- React
+- JavaScript
+- CSS
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Running the Project
+1. Clone the repository: `git clone https://github.com/emmadillpickle/assembly-endgame.git`
+2. Navigate to the project directory: `cd assembly-endgame`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm run dev` or `npm start` depending on your project setup.
 
-Note: This will impact Vite dev & build performances.
+## Demo
+![Assembly: Endgame Demo](.src/assets/demo.gif)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+*Note: This project was built as part of the "Learn React" course on Scrimba and served as a capstone project*
