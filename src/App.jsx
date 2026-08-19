@@ -1,16 +1,21 @@
 import React from "react"
-
-/**
- * Goal: Build out the main parts of our app
- * 
- * Challenge: Add a header with the game title
- * and description. Startin' out easy 🙂🚶‍➡️
- */
+import Header from "./components/header/Header"
+import Status from "./components/status/Status"
+import Languages from "./components/languages/Languages"
+import Word from "./components/word/Word"
+import Keyboard from "./components/keyboard/Keyboard"
+import "./App.css"
 
 export default function Hangman() {
+    const [currentWord, setCurrentWord] = React.useState("react")
+
     return (
         <main>
-            Game goes here
+            <Header />
+            <Status />
+            <Languages />
+            <Word word={currentWord} />
+            <Keyboard />
         </main>
     )
 }

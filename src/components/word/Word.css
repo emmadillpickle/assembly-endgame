@@ -1,0 +1,20 @@
+.word {
+    margin-top: 35px;
+    display: flex;
+    gap: 2px;
+}
+
+.word > span {
+    height: 40px;
+    width: 40px;
+    background-color: #323232;
+    margin: 5px;
+    border-bottom: 1px solid #F9F4DA;
+    align-content: center;   
+    text-align: center;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 1.125rem;
+    color: #F9F4DA;
+    margin: 0;
+}
