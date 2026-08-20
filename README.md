@@ -31,6 +31,6 @@ In **Assembly: Endgame**, every incorrect guess eliminates a programming languag
 4. Start the development server: `npm run dev` or `npm start` depending on your project setup.
 
 ## Demo
-![Assembly: Endgame Demo](.src/assets/demo.gif)
+https://github.com/user-attachments/assets/42387f6a-ee8a-4ed7-9ead-c7d34092e1bf
 
 *Note: This project was built as part of the "Learn React" course on Scrimba and served as a capstone project*
